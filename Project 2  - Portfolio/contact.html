@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact me</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e2195ff7b8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <div class="contact-page">
+      <nav class="nav">
+        <a href="/" class="logo">A.Gautam</a>
+
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+
+        <div class="nav__link hide">
+          <a href="index.html">home</a>
+          <a href="about.html">My resume</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+      <div class="content">
+        <div class="container">
+          <form class="form" data-aos="slide-right">
+            <div class="descr">Contact Me</div>
+            <div class="input">
+              <input required="" autocomplete="off" type="text" />
+              <label for="name">Name</label>
+            </div>
+
+            <div class="input">
+              <input required="" autocomplete="off" name="email" type="text" />
+              <label for="email">E-mail</label>
+            </div>
+
+            <div class="input">
+              <textarea required="" cols="30" rows="1" id="message"></textarea>
+              <label for="message">Message</label>
+            </div>
+            <button>Send message →</button>
+          </form>
+        </div>
+        <div data-aos="zoom-in">
+          <img src="images/c1.jpg" alt="" />
+        </div>
+      </div>
+      <footer class="footer-distributed">
+        <a href="https://www.facebook.com/ankur.gautam.56808"
+          ><i class="fa-brands fa-square-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/__a.n.k.u.r_/"
+          ><i class="fa-brands fa-square-instagram"></i
+        ></a>
+        <a href="https://github.com/Ankur060602"
+          ><i class="fa-brands fa-square-github"></i
+        ></a>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 0;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+  }
+
+  .hamburger {
+    padding-right: 20px;
+    cursor: pointer;
+  }
+
+  .hamburger .line {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: black;
+  }
+
+  .nav__link {
+    position: fixed;
+    width: 94%;
+    top: 5rem;
+    left: 18px;
+    background-color: lightblue;
+  }
+
+  .nav__link a {
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+  }
+
+  .nav__link a:hover {
+    transform: scale(1.1);
+    color: #098396;
+  }
+
+  .hide {
+    display: none;
+  }
+  @media screen and (min-width: 600px) {
+    .nav__link {
+      display: block;
+      position: static;
+      width: auto;
+      margin-right: 20px;
+      background: none;
+    }
+
+    .nav__link a {
+      display: inline-block;
+      padding: 15px 20px;
+    }
+
+    .hamburger {
+      display: none;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .logo{
+    color: black;
+    font-size: 30px;
+    font-family: 'Inknut Antiqua', serif;
+    text-transform: none;
+    color: #1a4c52;
+  }
+
+  .about-me{
+    text-align: center;
+  }
+
+  /* .about-me h2{
+    font-size: 100px;
+  } */
+
+  img{
+    margin: 20px 0;
+    width: 75%;
+    border: 2px solid black;
+  }
+
+  footer{
+    height: 7vh;
+    text-align: center;
+    margin: 0 60px;
+    border-top: .5px solid black;
+    background-color: rgb(255, 255, 255);
+  }
+  i{
+    padding: 10px;
+    font-size: 25px;
+  }
